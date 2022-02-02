@@ -1,0 +1,347 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 774px;
+}
+
+.u-section-1 .u-image-1 {
+  filter: brightness(0.8);
+  width: 1373px;
+}
+
+.u-section-1 .u-layout-wrap-1 {
+  margin: 60px auto 60px 0;
+}
+
+.u-section-1 .u-layout-cell-1 {
+  min-height: 456px;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 0;
+}
+
+.u-section-1 .u-text-1 {
+  font-family: "Bai Jamjuree";
+  transition-duration: 0.5s;
+  margin: 19px 298px 0 17px;
+}
+
+.u-section-1 .u-text-2 {
+  margin: 34px 19px 0 491px;
+}
+
+.u-section-1 .u-layout-cell-2 {
+  min-height: 226px;
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding: 15px 0;
+}
+
+.u-section-1 .u-layout-cell-3 {
+  min-height: 738px;
+}
+
+.u-section-1 .u-container-layout-3 {
+  padding: 14px 0;
+}
+
+.u-section-1 .u-text-3 {
+  text-align: left;
+  margin: 645px 36px 0 17px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 765px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 570px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    margin-top: -645px;
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 376px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-right: 40px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 214px;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 0;
+    margin-left: 410px;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 186px;
+  }
+
+  .u-section-1 .u-layout-cell-3 {
+    min-height: 609px;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 100px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-right: 0;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 104px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-left: 300px;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 142px;
+  }
+
+  .u-section-1 .u-layout-cell-3 {
+    min-height: 100px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1098px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 540px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    margin-top: -979px;
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 183px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 894px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    margin-top: -775px;
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-left: 100px;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 115px;
+  }
+}
+
+.u-section-1 .u-text-1,
+.u-section-1 .u-text-1:before {
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, background-size, background-position;
+}
+
+.u-section-1 .u-text-1.u-text-1.u-text-1:hover {
+  transform: scale(1.1) translateX(0px) translateY(0px) !important;
+}
+
+.u-section-1 .u-text-1.u-text-1.u-text-1.hover {
+  transform: scale(1.1) translateX(0px) translateY(0px) !important;
+} .u-section-2 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("images/Artboard1.png");
+  background-position: 50% 50%;
+}
+
+.u-section-2 .u-sheet-1 {
+  min-height: 746px;
+}
+
+.u-section-2 .u-layout-wrap-1 {
+  margin: 60px auto 60px 0;
+}
+
+.u-section-2 .u-layout-cell-1 {
+  min-height: 694px;
+}
+
+.u-section-2 .u-container-layout-1 {
+  padding: 0;
+}
+
+.u-section-2 .u-text-1 {
+  font-family: "Bai Jamjuree";
+  margin: 21px 453px 0 0;
+}
+
+.u-section-2 .u-text-2 {
+  margin: -25px 214px 0 0;
+}
+
+.u-section-2 .u-layout-cell-2 {
+  min-height: 98px;
+}
+
+.u-section-2 .u-container-layout-2 {
+  padding: 19px 0;
+}
+
+.u-section-2 .u-layout-cell-3 {
+  min-height: 792px;
+}
+
+.u-section-2 .u-container-layout-3 {
+  padding: 14px 0;
+}
+
+.u-section-2 .u-social-icons-1 {
+  height: 34px;
+  min-height: 16px;
+  width: 135px;
+  min-width: 80px;
+  white-space: nowrap;
+  margin: 721px 21px 0 auto;
+}
+
+.u-section-2 .u-icon-1 {
+  height: 100%;
+}
+
+.u-section-2 .u-icon-2 {
+  height: 100%;
+}
+
+.u-section-2 .u-icon-3 {
+  height: 100%;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 505px;
+  }
+
+  .u-section-2 .u-layout-wrap-1 {
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-2 .u-layout-cell-1 {
+    min-height: 572px;
+  }
+
+  .u-section-2 .u-container-layout-1 {
+    padding-right: 40px;
+  }
+
+  .u-section-2 .u-text-1 {
+    margin-right: 336px;
+  }
+
+  .u-section-2 .u-text-2 {
+    margin-right: 97px;
+  }
+
+  .u-section-2 .u-layout-cell-2 {
+    min-height: 81px;
+  }
+
+  .u-section-2 .u-layout-cell-3 {
+    min-height: 653px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 384px;
+  }
+
+  .u-section-2 .u-layout-cell-1 {
+    min-height: 100px;
+  }
+
+  .u-section-2 .u-container-layout-1 {
+    padding-right: 0;
+  }
+
+  .u-section-2 .u-text-1 {
+    margin-right: 208px;
+  }
+
+  .u-section-2 .u-text-2 {
+    margin-right: 0;
+  }
+
+  .u-section-2 .u-layout-cell-2 {
+    min-height: 62px;
+  }
+
+  .u-section-2 .u-layout-cell-3 {
+    min-height: 380px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 961px;
+  }
+
+  .u-section-2 .u-layout-cell-2 {
+    min-height: 80px;
+  }
+
+  .u-section-2 .u-layout-cell-3 {
+    min-height: 684px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 638px;
+  }
+
+  .u-section-2 .u-text-1 {
+    margin-right: 8px;
+  }
+
+  .u-section-2 .u-layout-cell-2 {
+    min-height: 50px;
+  }
+
+  .u-section-2 .u-layout-cell-3 {
+    min-height: 431px;
+  }
+}
