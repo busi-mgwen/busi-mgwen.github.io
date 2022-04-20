@@ -12,8 +12,8 @@ body,
 .Container {
 	height: 100%;
 	font-family: 'Darker Grotesque', sans-serif;
-
 	background-color: rgb(255, 255, 255);
+	cursor:crosshair
   }
   body
   body {
@@ -35,6 +35,8 @@ a:visited.white {
 	text-decoration: none;
 	color: #fff;
 }
+
+
 
 
 li {
