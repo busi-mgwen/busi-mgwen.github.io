@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <!-- Bootstrap CSS -->
+    
+    <title>Fab Academy week 10 to 13 </title>
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300&display=swap" rel="stylesheet">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+     
+    <script src="main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!--style sheet-->
+<link rel="stylesheet" href="./style.css">
+
+    <!--Fonts -->      
+    <style>
+      body {
+        font-family: 'Darker Grotesque', sans-serif;
+        font-size: 48px;
+      }
+    </style>
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <a class="navbar-brand mx-auto" href="index.html">
+
+  </a>
+  <div id="toggler" class="wrapper custom-toggler navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse">
+     <div class="menu-toggle">
+        <span class="icon-bars custom-toggler navbar-toggler-icon"></span>
+     </div>
+  </div>
+  <div id="toggle-nav" class="navbar-collapse collapse">
+     <ul class="navbar-nav">
+        <li class="nav-item"> <a class="nav-link" href="index.html">Home</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="studio.html">Term 1</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="works.html">Term 2</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="fabacademy.html">Fab Academy</a> </li>
+     </ul>
+</nav>
+<p>
+
+</head>
+<body>
+ <div>
+   <br></br>
+        
+
+
+  
+  <h2><b>Week 15: Network and Communication </b></h2>
+  
+  <p>Task: Code/program an interface with the tools provided ( processing,P5JS, MitAppInventor, 
+    A frame,NodeRed) or other alternatives software that interfaces a user with an input and/or output device that you want to use.</p>
+
+    <p>Interpret and implement design and programming protocols to create a Graphic User Interface (GUI).</p>
+  
+  
+        <p>Asynchronous serial communication. </p>
+  
+        <p>For this task, I concentrated on using P5JS as this was the interface 
+          I wanted to use for the Fab Challenge III.  P5.js is a Javasript library developed by the 
+          Processing Foundation to make a web-based version of Processing.</p>
+  
+            <p>To create a user interface and input/ output interface the P5JS  serial port library communicates with a server, 
+               that gives access to a serial device connected to the computer. This is how P5 is then used as a microcontroller 
+               using asynchronous serial communication.</p>
+  
+  
+               <p>The idea of the task was to write a simple Arduino sketch that communicates with the P5JS serial port, 
+                controlling the brightness of an LED using a gradient from 0 to 255. </p>
+                <p><img src="images/led1.jpg" width="auto" height="500">
+                <p>I followed the Arduino sketch that can be found here using any analogue pin: Find the links <a href="https://github.com/yyyuan/arduino-p5-tutorial-starter/blob/master/sketch.js">here</a>  <a href=" https://www.youtube.com/watch?v=yThUrgBkZ2o"> and here</a></p>
+                <p><img src="images/ledp5.jpg" width="auto" height="500">
+
+                <p> Preparing the Arduino Uno and Serial Port Connection:</p>
+                <li> Download the P5 serial control App, it requires a node.js environment</li>
+                  <li>Download the P5 serial port library, copy and paste it in the P5JS environment, 
+                    following instructions written in the application</li>
+                    <li>Open the online P5.js text editor, make sure the serial port is the correct one,  to run the code</li>
+                    <p><img src="images/ledp51.jpg" width="auto" height="500">
+                      <p> Components needed: </p>
+                      <li> Breadboard x 1</li>
+                        <li>Arduino Uno x 1</li>
+                          <li>LED x1</li>
+                            <li>Potentiometer x 1</li>
+                              <li>Jumper Wires x 8</li>
+                                <li>330Ω Resistor x 2</li>
+  
+  
+                                <p>After Preparing the Arduino sketch and circuit for an LED, I ran the P5 serial port, 
+                                  in the same COM as the Arduino. The P5 JS controls the brightness of the LED from a range of 0 to 255, 
+                                  using the cursor. The sending value is sent to the Arduino with the function serial.write. Firstly, 
+                                  I ran the Arduino Sketch, then saved it and closed Arduino. After that I opened the P5 serial controller, and selected the correct Port. In the P5 sketch or code, I made sure the serial port was the correct one, then I ran the code.</p>
+                                  <p><img src="images/p5.jpg" width="auto" height="500">
+                                  <p>This was the effect:</p>
+  
+
+                                  <div style="padding:177.78% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/720305884?h=4903e39e85&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="p51"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+</div>
+    </section>
+  </body>
+</html>
