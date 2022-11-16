@@ -45,6 +45,11 @@ li {
 	font-size: 1.5rem;
     margin-left: 80px;
 }
+
+.hero {
+background-image: url("web.jpg")
+
+}
   
   
   h1 {
